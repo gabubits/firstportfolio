@@ -1,3 +1,6 @@
+// 3D Pin from Aceternity
+// https://ui.aceternity.com/components/3d-pin
+
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";

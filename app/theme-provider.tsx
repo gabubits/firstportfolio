@@ -1,3 +1,5 @@
+// Theme provider for working with dark and white themes
+
 "use client"
 
 import * as React from "react"

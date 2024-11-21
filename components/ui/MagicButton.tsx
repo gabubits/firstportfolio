@@ -1,3 +1,6 @@
+// Magic Button from Aceternity
+// https://ui.aceternity.com/components/tailwindcss-buttons
+
 import React from "react";
 
 const MagicButton = ({

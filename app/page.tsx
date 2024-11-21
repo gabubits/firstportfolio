@@ -1,9 +1,7 @@
-import Clients from "@/components/Clients";
-import Experience from "@/components/Experience";
-import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Inicio from "@/components/Inicio";
-import Projetos from "@/components/Projetos";
+import Contact from "@/components/Contact";
+import Habilities from "@/components/Habilities";
+import Initial from "@/components/Initial";
+import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavBar";
 import { navItems } from "@/data";
 
@@ -12,12 +10,10 @@ export default function Home() {
     <div className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <h1 className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
-        <Inicio />
-        <Grid />
-        <Projetos />
-        <Clients />
-        <Experience />
-        <Footer />
+        <Initial />
+        <Habilities />
+        <Projects />
+        <Contact />
       </h1>
     </div>
   );

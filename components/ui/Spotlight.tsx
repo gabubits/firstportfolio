@@ -1,7 +1,7 @@
-/*
-Componente Spotlight do Aceternity (biblioteca de componentes)
-https://ui.aceternity.com/components/spotlight
-*/
+
+// Spotlight from Aceternity
+// https://ui.aceternity.com/components/spotlight
+
 
 import React from "react";
 import { cn } from "@/lib/utils";
